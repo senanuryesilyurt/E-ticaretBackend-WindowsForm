@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\eticaret\server\bin\Debug\server.exe.config
+C:\Users\Lenovo\source\repos\eticaret\server\bin\Debug\server.exe
+C:\Users\Lenovo\source\repos\eticaret\server\bin\Debug\server.pdb
+C:\Users\Lenovo\source\repos\eticaret\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\eticaret\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\eticaret\server\obj\Debug\server.exe
+C:\Users\Lenovo\source\repos\eticaret\server\obj\Debug\server.pdb
+C:\Users\Lenovo\Desktop\source\repos\eticaret\server\bin\Debug\server.exe.config
+C:\Users\Lenovo\Desktop\source\repos\eticaret\server\bin\Debug\server.exe
+C:\Users\Lenovo\Desktop\source\repos\eticaret\server\bin\Debug\server.pdb
+C:\Users\Lenovo\Desktop\source\repos\eticaret\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\source\repos\eticaret\server\obj\Debug\server.exe
+C:\Users\Lenovo\Desktop\source\repos\eticaret\server\obj\Debug\server.pdb
+C:\Users\Lenovo\Desktop\source\repos\eticaret\server\obj\Debug\server.csproj.CoreCompileInputs.cache

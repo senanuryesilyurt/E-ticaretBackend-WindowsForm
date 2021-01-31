@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="eticaret" EntityNamespace="eticaret" ContextNamespace="eticaret" Class="eticaretDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-68FQ1B6\SQLEXPRESS;Initial Catalog=eticaret;Integrated Security=True" SettingsObjectName="eticaret.Properties.Settings" SettingsPropertyName="eticaretConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.UYELER" Member="UYELER">
+    <Type Name="UYELER">
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="parola" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="e_posta" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ceptel" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="soyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="uyelik_tipi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ilanlar" Member="ilanlar">
+    <Type Name="ilanlar">
+      <Column Name="ilan_no" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="oncelik" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ilan_icerigi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ilan_basligi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ilan_fiyati" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="resim_yolu" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Siparis" Member="Siparis">
+    <Type Name="Siparis">
+      <Column Name="siparis_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ilan_no" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="siparis_tarihi" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="siparis_ücreti" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="siparis_durumu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Goruntuleme" Member="Goruntuleme">
+    <Type Name="Goruntuleme">
+      <Column Name="ilan_no" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="goruntulenme_sayisi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ayarlar" Member="Ayarlar">
+    <Type Name="Ayarlar">
+      <Column Name="Ayar_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ayar_Baslıgı" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Ayar_Icerigi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="User_Name" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mesajlar" Member="Mesajlar">
+    <Type Name="Mesajlar">
+      <Column Name="Mesaj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Mesaj_Basligi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mesaj_Icerigi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Gönderen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Alici" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Okunan_mesajlar" Member="Okunan_mesajlar">
+    <Type Name="Okunan_mesajlar">
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="mesaj_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tarih" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

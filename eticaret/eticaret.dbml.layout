@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="eticaret">
+  <DataContextMoniker Name="/eticaretDataContext" />
+  <nestedChildShapes>
+    <classShape Id="91561dfb-6fee-441c-b4ce-9a5f829730ae" absoluteBounds="2.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/eticaretDataContext/UYELER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc7c5bfd-71cb-41c2-b602-b7a30bc0982f" absoluteBounds="2.7649999999999997, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa51f108-ba9e-498e-abd4-0d5dc72b4fda" absoluteBounds="5.375, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/eticaretDataContext/ilanlar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6199566c-f677-4e29-8881-d9c4b49090a3" absoluteBounds="5.39, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2cb3e508-f7da-45c4-a24c-3da16a8e2426" absoluteBounds="8, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/eticaretDataContext/Siparis" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1359ef1d-72e9-42a0-b5a8-7f3edef9864f" absoluteBounds="8.015, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c59fa86-a7bb-431e-903c-022937b8e6f1" absoluteBounds="4.5, 3.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/eticaretDataContext/Goruntuleme" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e16e6278-212b-4371-9ff5-6bec109f09e8" absoluteBounds="4.515, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c4614ad-2154-4db0-88ee-d66bc5cceb35" absoluteBounds="7.375, 3.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/eticaretDataContext/Ayarlar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1b3074c-7b40-42f5-8dd5-b4818c997624" absoluteBounds="7.39, 3.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a9aa3b89-4832-4807-83c2-713668a271e0" absoluteBounds="2.125, 3.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/eticaretDataContext/Mesajlar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7eb838c-aab7-41bf-99a8-6a41ac38c0dc" absoluteBounds="2.14, 3.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1082a9d6-8950-4ffe-99c7-0794b6185df3" absoluteBounds="0.5, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/eticaretDataContext/Okunan_mesajlar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1168a782-2bc7-4aac-9ed3-da39bdc219e4" absoluteBounds="0.51500000000000012, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

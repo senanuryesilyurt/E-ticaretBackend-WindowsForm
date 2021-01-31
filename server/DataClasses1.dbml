@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="eticaret" EntityNamespace="eticaret" ContextNamespace="eticaret" Class="eticaretDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-P5CBC43\EMTA;Initial Catalog=eticaret;Integrated Security=True" SettingsObjectName="server.Properties.Settings" SettingsPropertyName="eticaretConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Siparis" Member="Siparis">
+    <Type Name="Siparis">
+      <Column Name="siparis_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ilan_no" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="siparis_tarihi" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="siparis_ücreti" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="siparis_durumu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mesajlar" Member="Mesajlar">
+    <Type Name="Mesajlar">
+      <Column Name="Mesaj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Mesaj_Basligi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mesaj_Icerigi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Gönderen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Alici" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\eticaret\sena\bin\Debug\sena.dll
+C:\Users\Lenovo\source\repos\eticaret\sena\bin\Debug\sena.pdb
+C:\Users\Lenovo\source\repos\eticaret\sena\obj\Debug\sena.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\eticaret\sena\obj\Debug\sena.dll
+C:\Users\Lenovo\source\repos\eticaret\sena\obj\Debug\sena.pdb
+C:\Users\Lenovo\source\repos\eticaret\sena\obj\Debug\sena.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\source\repos\eticaret\sena\bin\Debug\sena.dll
+C:\Users\Lenovo\Desktop\source\repos\eticaret\sena\bin\Debug\sena.pdb
+C:\Users\Lenovo\Desktop\source\repos\eticaret\sena\obj\Debug\sena.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\source\repos\eticaret\sena\obj\Debug\sena.dll
+C:\Users\Lenovo\Desktop\source\repos\eticaret\sena\obj\Debug\sena.pdb
+C:\Users\Lenovo\Desktop\source\repos\eticaret\sena\obj\Debug\sena.csproj.CoreCompileInputs.cache
