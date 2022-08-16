@@ -1,4 +1,4 @@
-# E-ticaret Backend Simulation
+# E-ticaret Backend with Windows Form
 
 ### Kullanılan Dil ve Teknolojiler
 + C#
@@ -23,3 +23,18 @@ Windows Forms yapısı ile bir e-ticaret arka yüzü tasarlanmıştır.
 + Üyeler görüntüledikleri mesajları okundu olarak işaretleyebilir.
 + Admin yetkisine sahip kullanıcılar, üyelere mesaj gönderebilir. 
 + Admin yetkisine sahip kullanıcılar ilanları görüntüleyebilir, ilan silebilir.
+
+### Görünüm
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/register.png)
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/login.png)
+
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/menuBar.png)
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/profile.png)
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/updatedInfo.png)
+
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/giveAnOrder.png)
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/notice_list.png)
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/addProduct.png)
+
+![](https://github.com/senanuryesilyurt/E-ticaretBackend-WindowsForm/blob/main/photos/messagge.png)
+
